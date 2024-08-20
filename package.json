@@ -4,6 +4,8 @@
   "description": "FluidSizingCSS is a pure CSS solution for responsive design, offering fluid sizing locks for seamless scaling across devices. It eliminates the need for external tools, enabling developers to create adaptable, lightweight, and fast interfaces with native CSS. Includes common, logical, and physical fluid properties for comprehensive design flexibility.",
   "main": "dist/css/fluidsizingcss.min.css",
   "style": "dist/css/fluidsizingcss.min.css",
+  "browser": "dist/css/fluidsizingcss.min.css",
+  "sideEffects": false,
   "files": [
     "dist/css/"
   ],
@@ -14,20 +16,29 @@
     "type": "git",
     "url": "git+https://github.com/byteyard/fluidsizingcss.git"
   },
-  "keywords": [],
+  "keywords": [
+    "CSS",
+    "responsive design",
+    "fluid sizing",
+    "adaptive design",
+    "web development",
+    "scaling",
+    "native CSS",
+    "media queries"
+  ],
   "author": "ByteYard GmbH",
   "license": "MIT",
+  "homepage": "https://fluidsizingcss.com",
   "bugs": {
     "url": "https://github.com/byteyard/fluidsizingcss/issues"
   },
-  "homepage": "https://fluidsizingcss.com",
   "devDependencies": {
     "csso": "^5.0.5",
     "csso-cli": "^4.0.2"
   },
-  "fluidsizingcss": {
-    "fluidsizingcss": "dist/css/fluidsizingcss.min.css",
-    "fluidsizingcss-logical": "dist/css/fluidsizingcss-logical.min.css",
-    "fluidsizingcss-physical": "dist/css/fluidsizingcss-physical.min.css"
+  "exports": {
+    "./fluidsizingcss": "./dist/css/fluidsizingcss.min.css",
+    "./fluidsizingcss-logical": "./dist/css/fluidsizingcss-logical.min.css",
+    "./fluidsizingcss-physical": "./dist/css/fluidsizingcss-physical.min.css"
   }
 }

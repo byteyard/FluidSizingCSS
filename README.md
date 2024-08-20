@@ -5,7 +5,7 @@
 FluidSizingCSS is a pioneering solution for responsive design that transforms how interfaces adapt between mobile and desktop. This package offers the world's first pure CSS implementation of fluid sizing locks, eliminating the need for SCSS or external tools. Designed for developers and loved by designers, it enables perfect fluid scaling using only native CSS, making your site more adaptable, lighter, and faster.
 
 > [!TIP]
-> See the Pen <a href="https://codepen.io/arinker/pen/poXLzBG" target="_blank" rel="noopener">FluidSizingCSS Demo</a> on CodePen.
+> See the [FluidSizingCSS Demo](https://codepen.io/arinker/pen/poXLzBG) on CodePen.
 
 ---
 

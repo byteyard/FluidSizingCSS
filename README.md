@@ -20,6 +20,9 @@ FluidSizingCSS leverages CSS custom properties, `calc()`, and `clamp()` to imple
 
 To define fluid sizing for a heading, include the following in your CSS:
 
+> [!CAUTION]
+> All values must be unitless to ensure compatibility with CSS mathematical operations.
+
 ```css
 :root {
     --s-min: 400; /* Lower Lock: Min Screen Size */
@@ -50,8 +53,6 @@ Set global minimum and maximum screen sizes and base font size at the `:root` le
 }
 ```
 
-> [!CAUTION]
-> All values must be unitless to ensure compatibility with CSS mathematical operations.
 
 ---
 

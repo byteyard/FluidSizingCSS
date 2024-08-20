@@ -1,6 +1,6 @@
 {
   "name": "fluidsizingcss",
-  "version": "1.0.42",
+  "version": "0.0.1",
   "description": "...",
   "main": "dist/css/modulate.min.css",
   "style": "dist/css/modulate.min.css",

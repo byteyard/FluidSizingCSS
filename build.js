@@ -6,7 +6,7 @@ const packages = [
   {
     name: "fluidsizingcss",
     files: [
-      'src/fluidsizingcss-basic.css',
+      'src/fluidsizingcss-common.css',
       'src/fluidsizingcss-physical.css',
       'src/fluidsizingcss-logical.css'
     ]
@@ -14,14 +14,14 @@ const packages = [
   {
     name: "fluidsizingcss-physical",
     files: [
-      'src/fluidsizingcss-basic.css',
+      'src/fluidsizingcss-common.css',
       'src/fluidsizingcss-physical.css',
     ]
   },
   {
     name: "fluidsizingcss-logical",
     files: [
-      'src/fluidsizingcss-basic.css',
+      'src/fluidsizingcss-common.css',
       'src/fluidsizingcss-logical.css'
     ]
   },

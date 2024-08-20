@@ -52,117 +52,201 @@ Set global minimum and maximum screen sizes and base font size at the `:root` le
 
 **Note:** All values must be unitless to ensure compatibility with CSS mathematical operations.
 
-## Available Fluid Properties
+Here is the updated README.md section reflecting the complete list of properties:
 
-FluidSizingCSS provides a comprehensive range of fluid properties, designed to enhance responsiveness and adaptability across devices. Below are the key fluid properties available:
+## Complete List of Fluid Properties
 
-### Text
+FluidSizingCSS provides a comprehensive set of fluid properties, allowing you to create responsive and adaptive designs across different screen sizes. These properties are categorized into Global Settings, Text Formatting, Margin, Padding, Border Width, Border Radius, Outline, Inset, Grid/Flex/Columns, Background, Scroll, Logical Properties, and Physical Properties.
 
-- **font-size:** `--fs`, `--fs-min`, `--fs-max`
-- **line-height:** `--lh`, `--lh-min`, `--lh-max`
-- **letter-spacing:** `--ls`, `--ls-min`, `--ls-max`
-- **word-spacing:** `--ws`, `--ws-min`, `--ws-max`
-- **text-indent:** `--ti`, `--ti-min`, `--ti-max`
-- **text-decoration-thickness:** `--tdt`, `--tdt-min`, `--tdt-max`
-- **text-underline-offset:** `--tuo`, `--tuo-min`, `--tuo-max`
+### Common Fluid Properties
 
-### Block
+#### Text Formatting
 
-- **block-size (height):** `--bs`, `--bs-min`, `--bs-max`
-- **min-block-size (min-height):** `--minbs`, `--minbs-min`, `--minbs-max`
-- **max-block-size (max-height):** `--maxbs`, `--maxbs-min`, `--maxbs-max`
+- **font-size:** `--fs`
+- **line-height:** `--lh`
+- **letter-spacing:** `--ls`
+- **word-spacing:** `--ws`
+- **text-indent:** `--ti`
+- **text-decoration-thickness:** `--tdt`
+- **text-underline-offset:** `--tuo`
 
-### Inline
+#### Margin
 
-- **inline-size (width):** `--is`, `--is-min`, `--is-max`
-- **min-inline-size (min-width):** `--minis`, `--minis-min`, `--minis-max`
-- **max-inline-size (max-width):** `--maxis`, `--maxis-min`, `--maxis-max`
+- **margin:** `--m`
 
-### Margin
+#### Padding
 
-- **margin:** `--m`, `--m-min`, `--m-max`
-- **margin-block (margin-top + margin-bottom):** `--mb`, `--mb-min`, `--mb-max`
-- **margin-block-start (margin-top):** `--mbs`, `--mbs-min`, `--mbs-max`
-- **margin-block-end (margin-bottom):** `--mbe`, `--mbe-min`, `--mbe-max`
-- **margin-inline (margin-left + margin-right):** `--mi`, `--mi-min`, `--mi-max`
-- **margin-inline-start (margin-left):** `--mis`, `--mis-min`, `--mis-max`
-- **margin-inline-end (margin-right):** `--mie`, `--mie-min`, `--mie-max`
+- **padding:** `--p`
 
-### Padding
+#### Border Width
 
-- **padding:** `--p`, `--p-min`, `--p-max`
-- **padding-block (padding-top + padding-bottom):** `--pb`, `--pb-min`, `--pb-max`
-- **padding-block-start (padding-top):** `--pbs`, `--pbs-min`, `--pbs-max`
-- **padding-block-end (padding-bottom):** `--pbe`, `--pbe-min`, `--pbe-max`
-- **padding-inline (padding-left + padding-right):** `--pi`, `--pi-min`, `--pi-max`
-- **padding-inline-start (padding-left):** `--pis`, `--pis-min`, `--pis-max`
-- **padding-inline-end (padding-right):** `--pie`, `--pie-min`, `--pie-max`
+- **border-width:** `--bw`
 
-### Border Width
+#### Border Radius
 
-- **border-width:** `--bw`, `--bw-min`, `--bw-max`
-- **border-block-width (border-top-width + border-bottom-width):** `--bbw`, `--bbw-min`, `--bbw-max`
-- **border-block-start-width (border-top-width):** `--bbsw`, `--bbsw-min`, `--bbsw-max`
-- **border-block-end-width (border-bottom-width):** `--bbew`, `--bbew-min`, `--bbew-max`
-- **border-inline-width (border-left-width + border-right-width):** `--biw`, `--biw-min`, `--biw-max`
-- **border-inline-start-width (border-left-width):** `--bisw`, `--bisw-min`, `--bisw-max`
-- **border-inline-end-width (border-right-width):** `--biew`, `--biew-min`, `--biew-max`
+- **border-radius:** `--br`
 
-### Border Radius
+#### Outline
 
-- **border-radius:** `--br`, `--br-min`, `--br-max`
-- **border-start-start-radius (border-top-left-radius):** `--bssr`, `--bssr-min`, `--bssr-max`
-- **border-start-end-radius (border-top-right-radius):** `--bser`, `--bser-min`, `--bser-max`
-- **border-end-end-radius (border-bottom-right-radius):** `--beer`, `--beer-min`, `--beer-max`
-- **border-end-start-radius (border-bottom-left-radius):** `--besr`, `--besr-min`, `--besr-max`
+- **outline-width:** `--ow`
+- **outline-offset:** `--oo`
 
-### Outline
+#### Inset
 
-- **outline-width:** `--ow`, `--ow-min`, `--ow-max`
-- **outline-offset:** `--oo`, `--oo-min`, `--oo-max`
+- **inset:** `--i`
 
-### Inset
+#### Grid, Flex, and Columns
 
-- **inset:** `--i`, `--i-min`, `--i-max`
-- **inset-block (top + bottom):** `--ib`, `--ib-min`, `--ib-max`
-- **inset-block-start (top):** `--ibs`, `--ibs-min`, `--ibs-max`
-- **inset-block-end (bottom):** `--ibe`, `--ibe-min`, `--ibe-max`
-- **inset-inline (left + right):** `--ii`, `--ii-min`, `--ii-max`
-- **inset-inline-start (left):** `--iis`, `--iis-min`, `--iis-max`
-- **inset-inline-end (right):** `--iie`, `--iie-min`, `--iie-max`
+- **grid-auto-columns:** `--gac`
+- **grid-auto-rows:** `--gar`
+- **gap:** `--g`
+- **column-gap:** `--cg`
+- **row-gap:** `--rg`
+- **column-width:** `--cw`
+- **column-rule-width:** `--crw`
+- **flex-basis:** `--fb`
 
-### Grid, Flex, and Columns
+#### Background
 
-- **grid-auto-columns:** `--gac`, `--gac-min`, `--gac-max`
-- **grid-auto-rows:** `--gar`, `--gar-min`, `--gar-max`
-- **gap:** `--g`, `--g-min`, `--g-max`
-- **column-gap:** `--cg`, `--cg-min`, `--cg-max`
-- **row-gap:** `--rg`, `--rg-min`, `--rg-max`
-- **column-width:** `--cw`, `--cw-min`, `--cw-max`
-- **column-rule-width:** `--crw`, `--crw-min`, `--crw-max`
-- **flex-basis:** `--fb`, `--fb-min`, `--fb-max`
+- **background-position-x:** `--bpx`
+- **background-position-y:** `--bpy`
 
-### Background
+#### Scroll
 
-- **background-position-x:** `--bpx`, `--bpx-min`, `--bpx-max`
-- **background-position-y:** `--bpy`, `--bpy-min`, `--bpy-max`
+- **scroll-margin:** `--sm`
+- **scroll-padding:** `--sp`
 
-### Scroll
+### Logical Fluid Properties
 
-- **scroll-margin:** `--sm`, `--sm-min`, `--sm-max`
-- **scroll-margin-block (scroll-margin-top + scroll-margin-bottom):** `--smb`, `--smb-min`, `--smb-max`
-- **scroll-margin-block-start (scroll-margin-top):** `--smbs`, `--smbs-min`, `--smbs-max`
-- **scroll-margin-block-end (scroll-margin-bottom):** `--smbe`, `--smbe-min`, `--smbe-max`
-- **scroll-margin-inline (scroll-margin-left + scroll-margin-right):** `--smi`, `--smi-min`, `--smi-max`
-- **scroll-margin-inline-start (scroll-margin-left):** `--smis`, `--smis-min`, `--smis-max`
-- **scroll-margin-inline-end (scroll-margin-right):** `--smie`, `--smie-min`, `--smie-max`
-- **scroll-padding:** `--sp`, `--sp-min`, `--sp-max`
-- **scroll-padding-block (scroll-padding-top + scroll-padding-bottom):** `--spb`, `--spb-min`, `--spb-max`
-- **scroll-padding-block-start (scroll-padding-top):** `--spbs`, `--spbs-min`, `--spbs-max`
-- **scroll-padding-block-end (scroll-padding-bottom):** `--spbe`, `--spbe-min`, `--spbe-max`
-- **scroll-padding-inline (scroll-padding-left + scroll-padding-right):** `--spi`, `--spi-min`, `--spi-max`
-- **scroll-padding-inline-start (scroll-padding-left):** `--spis`, `--spis-min`, `--spis-max`
-- **scroll-padding-inline-end (scroll-padding-right):** `--spie`, `--spie-min`, `--spie-max`
+#### Block
+
+- **block-size:** `--bs`
+- **min-block-size:** `--minbs`
+- **max-block-size:** `--maxbs`
+
+#### Inline
+
+- **inline-size:** `--is`
+- **min-inline-size:** `--minis`
+- **max-inline-size:** `--maxis`
+
+#### Margin
+
+- **margin-block:** `--mb`
+- **margin-block-start:** `--mbs`
+- **margin-block-end:** `--mbe`
+- **margin-inline:** `--mi`
+- **margin-inline-start:** `--mis`
+- **margin-inline-end:** `--mie`
+
+#### Padding
+
+- **padding-block:** `--pb`
+- **padding-block-start:** `--pbs`
+- **padding-block-end:** `--pbe`
+- **padding-inline:** `--pi`
+- **padding-inline-start:** `--pis`
+- **padding-inline-end:** `--pie`
+
+#### Border Width
+
+- **border-block-width:** `--bbw`
+- **border-block-start-width:** `--bbsw`
+- **border-block-end-width:** `--bbew`
+- **border-inline-width:** `--biw`
+- **border-inline-start-width:** `--bisw`
+- **border-inline-end-width:** `--biew`
+
+#### Border Radius
+
+- **border-start-start-radius:** `--bssr`
+- **border-start-end-radius:** `--bser`
+- **border-end-end-radius:** `--beer`
+- **border-end-start-radius:** `--besr`
+
+#### Inset
+
+- **inset-block:** `--ib`
+- **inset-block-start:** `--ibs`
+- **inset-block-end:** `--ibe`
+- **inset-inline:** `--ii`
+- **inset-inline-start:** `--iis`
+- **inset-inline-end:** `--iie`
+
+#### Scroll
+
+- **scroll-margin-block:** `--smb`
+- **scroll-margin-block-start:** `--smbs`
+- **scroll-margin-block-end:** `--smbe`
+- **scroll-margin-inline:** `--smi`
+- **scroll-margin-inline-start:** `--smis`
+- **scroll-margin-inline-end:** `--smie`
+- **scroll-padding-block:** `--spb`
+- **scroll-padding-block-start:** `--spbs`
+- **scroll-padding-block-end:** `--spbe`
+- **scroll-padding-inline:** `--spi`
+- **scroll-padding-inline-start:** `--spis`
+- **scroll-padding-inline-end:** `--spie`
+
+### Physical Fluid Properties
+
+#### Block
+
+- **height:** `--bs`
+- **min-height:** `--minh`
+- **max-height:** `--maxh`
+
+#### Width
+
+- **width:** `--is`
+- **min-width:** `--minw`
+- **max-width:** `--maxw`
+
+#### Margin
+
+- **margin-top:** `--mt`
+- **margin-bottom:** `--mgb`
+- **margin-left:** `--ml`
+- **margin-right:** `--mr`
+
+#### Padding
+
+- **padding-top:** `--pt`
+- **padding-bottom:** `--pb`
+- **padding-left:** `--pl`
+- **padding-right:** `--pr`
+
+#### Border Width
+
+- **border-top-width:** `--btw`
+- **border-bottom-width:** `--bbwth`
+- **border-left-width:** `--blw`
+- **border-right-width:** `--bbrw`
+
+#### Border Radius
+
+- **border-top-left-radius:** `--btlr`
+- **border-top-right-radius:** `--btrr`
+- **border-bottom-right-radius:** `--bbrr`
+- **border-bottom-left-radius:** `--bblr`
+
+#### Inset
+
+- **top:** `--top`
+- **bottom:** `--bot`
+- **left:** `--lft`
+- **right:** `--rgt`
+
+#### Scroll
+
+- **scroll-margin-top:** `--smt`
+- **scroll-margin-bottom:** `--smb`
+- **scroll-margin-left:** `--sml`
+- **scroll-margin-right:** `--smr`
+- **scroll-padding-top:** `--spt`
+- **scroll-padding-bottom:** `--spbt`
+- **scroll-padding-left:** `--spl`
+- **scroll-padding-right:** `--spr`
 
 ## License
 

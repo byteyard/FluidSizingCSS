@@ -141,25 +141,25 @@
             Inset
         */
 
-        /* inset-top: ibt */
-        --ibt-v: calc(((100 * (var(--ibt-max) - var(--ibt-min))) / (var(--s-max) - var(--s-min))) * 1vw);
-        --ibt-r: calc((((var(--s-min) * var(--ibt-max)) - (var(--s-max) * var(--ibt-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
-        --ibt: clamp(calc((var(--ibt-min) / var(--rem)) * 1rem), calc(var(--ibt-v) + var(--ibt-r) * 1rem), calc((var(--ibt-max) / var(--rem)) * 1rem));
+        /* top: top */
+        --top-v: calc(((100 * (var(--top-max) - var(--top-min))) / (var(--s-max) - var(--s-min))) * 1vw);
+        --top-r: calc((((var(--s-min) * var(--top-max)) - (var(--s-max) * var(--top-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
+        --top: clamp(calc((var(--top-min) / var(--rem)) * 1rem), calc(var(--top-v) + var(--top-r) * 1rem), calc((var(--top-max) / var(--rem)) * 1rem));
 
-        /* inset-bottom: ibb */
-        --ibb-v: calc(((100 * (var(--ibb-max) - var(--ibb-min))) / (var(--s-max) - var(--s-min))) * 1vw);
-        --ibb-r: calc((((var(--s-min) * var(--ibb-max)) - (var(--s-max) * var(--ibb-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
-        --ibb: clamp(calc((var(--ibb-min) / var(--rem)) * 1rem), calc(var(--ibb-v) + var(--ibb-r) * 1rem), calc((var(--ibb-max) / var(--rem)) * 1rem));
+        /* bottom: bot */
+        --bot-v: calc(((100 * (var(--bot-max) - var(--bot-min))) / (var(--s-max) - var(--s-min))) * 1vw);
+        --bot-r: calc((((var(--s-min) * var(--bot-max)) - (var(--s-max) * var(--bot-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
+        --bot: clamp(calc((var(--bot-min) / var(--rem)) * 1rem), calc(var(--bot-v) + var(--bot-r) * 1rem), calc((var(--bot-max) / var(--rem)) * 1rem));
 
-        /* inset-left: il */
-        --il-v: calc(((100 * (var(--il-max) - var(--il-min))) / (var(--s-max) - var(--s-min))) * 1vw);
-        --il-r: calc((((var(--s-min) * var(--il-max)) - (var(--s-max) * var(--il-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
-        --il: clamp(calc((var(--il-min) / var(--rem)) * 1rem), calc(var(--il-v) + var(--il-r) * 1rem), calc((var(--il-max) / var(--rem)) * 1rem));
+        /* left: lft */
+        --lft-v: calc(((100 * (var(--lft-max) - var(--lft-min))) / (var(--s-max) - var(--s-min))) * 1vw);
+        --lft-r: calc((((var(--s-min) * var(--lft-max)) - (var(--s-max) * var(--lft-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
+        --lft: clamp(calc((var(--lft-min) / var(--rem)) * 1rem), calc(var(--lft-v) + var(--lft-r) * 1rem), calc((var(--lft-max) / var(--rem)) * 1rem));
 
-        /* inset-right: ir */
-        --ir-v: calc(((100 * (var(--ir-max) - var(--ir-min))) / (var(--s-max) - var(--s-min))) * 1vw);
-        --ir-r: calc((((var(--s-min) * var(--ir-max)) - (var(--s-max) * var(--ir-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
-        --ir: clamp(calc((var(--ir-min) / var(--rem)) * 1rem), calc(var(--ir-v) + var(--ir-r) * 1rem), calc((var(--ir-max) / var(--rem)) * 1rem));
+        /* right: rgt */
+        --rgt-v: calc(((100 * (var(--rgt-max) - var(--rgt-min))) / (var(--s-max) - var(--s-min))) * 1vw);
+        --rgt-r: calc((((var(--s-min) * var(--rgt-max)) - (var(--s-max) * var(--rgt-min))) / (var(--s-min) - var(--s-max))) / var(--rem));
+        --rgt: clamp(calc((var(--rgt-min) / var(--rem)) * 1rem), calc(var(--rgt-v) + var(--rgt-r) * 1rem), calc((var(--rgt-max) / var(--rem)) * 1rem));
 
         /* ----------------------------------------------------------------------------------------
             Scroll

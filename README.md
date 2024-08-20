@@ -1,4 +1,4 @@
-# FluidSizingCSS
+# <img src="https://github.com/user-attachments/assets/99cd64e9-e0c5-46c1-a650-c74286371fe2" alt="ByteYard Icon Blue 3D Shadow" width="24"/> FluidSizingCSS
 
 ## Rethink Responsive Design with Pure CSS Fluid Sizing
 

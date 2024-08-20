@@ -1,6 +1,6 @@
 {
   "name": "fluidsizingcss",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "FluidSizingCSS is a pure CSS solution for responsive design, offering fluid sizing locks for seamless scaling across devices. It eliminates the need for external tools, enabling developers to create adaptable, lightweight, and fast interfaces with native CSS. Includes common, logical, and physical fluid properties for comprehensive design flexibility.",
   "main": "dist/css/fluidsizingcss.min.css",
   "style": "dist/css/fluidsizingcss.min.css",
@@ -28,7 +28,7 @@
   ],
   "author": "ByteYard GmbH",
   "license": "MIT",
-  "homepage": "https://fluidsizingcss.com",
+  "homepage": "http://fluidsizingcss.com",
   "bugs": {
     "url": "https://github.com/byteyard/fluidsizingcss/issues"
   },

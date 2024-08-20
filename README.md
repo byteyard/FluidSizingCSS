@@ -56,7 +56,10 @@ Here is the updated README.md section reflecting the complete list of properties
 
 ## Complete List of Fluid Properties
 
-FluidSizingCSS provides a comprehensive set of fluid properties, allowing you to create responsive and adaptive designs across different screen sizes. These properties are categorized into Global Settings, Text Formatting, Margin, Padding, Border Width, Border Radius, Outline, Inset, Grid/Flex/Columns, Background, Scroll, Logical Properties, and Physical Properties.
+FluidSizingCSS provides a comprehensive set of fluid properties, allowing you to create responsive and adaptive designs across different screen sizes. These properties are categorized into 
+* Common Fluid Properties,
+* Logical Fluid Properties and
+* Physical Fluid Properties.
 
 ### Common Fluid Properties
 

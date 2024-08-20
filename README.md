@@ -53,7 +53,7 @@ Set global minimum and maximum screen sizes and base font size at the `:root` le
 > [!CAUTION]
 > All values must be unitless to ensure compatibility with CSS mathematical operations.
 
-Here is the updated README.md section reflecting the complete list of properties:
+---
 
 ## Complete List of Fluid Properties
 

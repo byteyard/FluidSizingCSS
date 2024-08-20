@@ -10,37 +10,33 @@ FluidSizingCSS is a pioneering solution for responsive design that transforms ho
 
 ### Via npm
 
-1. Install FluidSizingCSS:
+1. **Install FluidSizingCSS**:
 
    ```bash
    npm install fluidsizingcss
    ```
 
-2. Import the CSS file into your project. The method depends on the framework you are using:
+2. **Import the CSS file** into your project based on the framework you’re using:
 
-   - **For vanilla JavaScript or HTML projects**:
-     Add the following line in your main HTML file within the `<head>` tag:
+   - **HTML/Vanilla JavaScript**: Add to your HTML `<head>`:
 
      ```html
      <link rel="stylesheet" href="node_modules/fluidsizingcss/fluidsizingcss.css">
      ```
 
-   - **For React**:
-     Import the CSS file in your main JavaScript or TypeScript file (e.g., `index.js` or `App.js`):
+   - **React**: Import in your JavaScript/TypeScript file:
 
      ```javascript
      import 'fluidsizingcss/fluidsizingcss.css';
      ```
 
-   - **For Vue.js**:
-     Import the CSS file in your main entry file (e.g., `main.js` or `App.vue`):
+   - **Vue.js**: Import in your entry file:
 
      ```javascript
      import 'fluidsizingcss/fluidsizingcss.css';
      ```
 
-   - **For Angular**:
-     Add the CSS file to the `styles` array in `angular.json`:
+   - **Angular**: Add to the `styles` array in `angular.json`:
 
      ```json
      "styles": [
@@ -49,42 +45,31 @@ FluidSizingCSS is a pioneering solution for responsive design that transforms ho
      ]
      ```
 
-   - **For SASS/SCSS projects**:
-     Import the CSS file directly in your main SASS/SCSS file:
+   - **SASS/SCSS**: Import in your main SASS/SCSS file:
 
      ```scss
      @import 'node_modules/fluidsizingcss/fluidsizingcss.css';
      ```
 
-### Additional Files
+### Optional: Smaller CSS Files
 
-To optimize performance, FluidSizingCSS offers specialized versions of the CSS file that contain only the necessary properties, resulting in smaller file sizes. Depending on your project’s needs, you can choose to include only the Logical Properties or only the Physical Properties. This allows you to reduce the amount of CSS your project uses, improving load times and overall performance.
+To improve performance, you can choose specialized versions of FluidSizingCSS:
 
-- **Logical Properties Only**: Import this version if your project primarily uses logical properties that adapt to writing modes and content flow direction (e.g., `block-size`, `inline-size`). This is ideal for projects that need to support various writing directions, such as left-to-right (LTR) or right-to-left (RTL) layouts.
+- **Logical Properties Only** (e.g., `block-size`, `inline-size`):
 
   ```javascript
   import 'fluidsizingcss/fluidsizingcss-logical.css';
   ```
 
-  ```html
-  <link rel="stylesheet" href="node_modules/fluidsizingcss/fluidsizingcss-logical.css">
-  ```
-
-- **Physical Properties Only**: Choose this version if your project focuses on physical dimensions and positioning, like `height`, `width`, `top`, and `left`. This is suitable for projects where content flows in a consistent direction and doesn't require logical properties.
+- **Physical Properties Only** (e.g., `height`, `width`):
 
   ```javascript
   import 'fluidsizingcss/fluidsizingcss-physical.css';
   ```
 
-  ```html
-  <link rel="stylesheet" href="node_modules/fluidsizingcss/fluidsizingcss-physical.css">
-  ```
-
-**Recommendation**: Evaluate your project’s requirements carefully. If you need support for complex layouts or varying content flows, use the full version of FluidSizingCSS. If your project is more straightforward, selecting either the Logical or Physical version can reduce the CSS footprint and enhance performance.
-
 ### Via CDN
 
-You can also include FluidSizingCSS directly in your HTML file using the CDN:
+Alternatively, include FluidSizingCSS directly in your HTML:
 
 - **Full Version**:
 

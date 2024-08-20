@@ -199,15 +199,15 @@ These properties adjust layout dimensions and spacing using logical directions (
 
 These properties control physical dimensions (e.g., height, width) and positions (e.g., top, left) based on the viewport, allowing precise fluid scaling of elements.
 
-#### Block
+#### Height
 
-- **height:** `--bs`
+- **height:** `--h`
 - **min-height:** `--minh`
 - **max-height:** `--maxh`
 
 #### Width
 
-- **width:** `--is`
+- **width:** `--w`
 - **min-width:** `--minw`
 - **max-width:** `--maxw`
 

@@ -12,6 +12,12 @@ Install FluidSizingCSS via npm:
 npm install fluidsizingcss
 ```
 
+or via cdn:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@lates/dist/css/fluidsizingcss.min.css">
+```
+
 ## How It Works
 
 FluidSizingCSS leverages CSS custom properties, `calc()`, and `clamp()` to implement fluid sizing techniques. This method enables smooth adaptation of typography and design elements across different devices, avoiding the abrupt changes typically associated with traditional breakpoints. 

@@ -80,6 +80,27 @@ To optimize performance, FluidSizingCSS offers specialized versions of the CSS f
 
 **Recommendation**: Evaluate your project’s requirements carefully. If you need support for complex layouts or varying content flows, use the full version of FluidSizingCSS. If your project is more straightforward, selecting either the Logical or Physical version can reduce the CSS footprint and enhance performance.
 
+### Via CDN
+
+You can also include FluidSizingCSS directly in your HTML file using the CDN:
+
+- **Full Version**:
+
+  ```html
+  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss.min.css">
+  ```
+
+- **Logical Properties Only**:
+
+  ```html
+  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss-logical.min.css">
+  ```
+
+- **Physical Properties Only**:
+
+  ```html
+  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss-physical.min.css">
+  ```
 ---
 
 ## How It Works

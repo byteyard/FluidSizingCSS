@@ -4,6 +4,53 @@
 
 FluidSizingCSS is a pioneering solution for responsive design that transforms how interfaces adapt between mobile and desktop. This package offers the world's first pure CSS implementation of fluid sizing locks, eliminating the need for SCSS or external tools. Designed for developers and loved by designers, it enables perfect fluid scaling using only native CSS, making your site more adaptable, lighter, and faster.
 
+Here’s a Table of Contents (ToC) for your README.md file:
+
+---
+
+## Table of Contents
+
+1. [Introduction](#fluid-sizing-css)
+2. [Installation](#installation)
+   - [Via npm](#via-npm)
+   - [Optional: Smaller CSS Files](#optional-smaller-css-files)
+   - [Via CDN](#via-cdn)
+3. [File Sizes](#file-sizes)
+4. [How It Works](#how-it-works)
+   - [Example Usage](#example-usage)
+   - [Global Settings](#global-settings)
+5. [Complete List of Fluid Properties](#complete-list-of-fluid-properties)
+   - [Common Fluid Properties](#common-fluid-properties)
+     - [Text Formatting](#text-formatting)
+     - [Margin](#margin)
+     - [Padding](#padding)
+     - [Border Width](#border-width)
+     - [Border Radius](#border-radius)
+     - [Outline](#outline)
+     - [Inset](#inset)
+     - [Grid, Flex, and Columns](#grid-flex-and-columns)
+     - [Background](#background)
+     - [Scroll](#scroll)
+   - [Logical Fluid Properties](#logical-fluid-properties)
+     - [Block](#block)
+     - [Inline](#inline)
+     - [Margin](#logical-margin)
+     - [Padding](#logical-padding)
+     - [Border Width](#logical-border-width)
+     - [Border Radius](#logical-border-radius)
+     - [Inset](#logical-inset)
+     - [Scroll](#logical-scroll)
+   - [Physical Fluid Properties](#physical-fluid-properties)
+     - [Height](#height)
+     - [Width](#width)
+     - [Margin](#physical-margin)
+     - [Padding](#physical-padding)
+     - [Border Width](#physical-border-width)
+     - [Border Radius](#physical-border-radius)
+     - [Inset](#physical-inset)
+     - [Scroll](#physical-scroll)
+6. [License](#license)
+
 ---
 
 ## Installation

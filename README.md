@@ -77,10 +77,18 @@ Alternatively, include FluidSizingCSS directly in your HTML:
   <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss.min.css">
   ```
 
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/css/fluidsizingcss.min.css">
+  ```
+
 - **Logical Properties Only**:
 
   ```html
   <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss-logical.min.css">
+  ```
+
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/css/fluidsizingcss-logical.min.css">
   ```
 
 - **Physical Properties Only**:
@@ -88,6 +96,20 @@ Alternatively, include FluidSizingCSS directly in your HTML:
   ```html
   <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss-physical.min.css">
   ```
+
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/css/fluidsizingcss-physical.min.css">
+  ```
+
+---
+
+## File Sizes
+
+| File Name                     | Size (CSS) | Size (Minified) | Size (Brotli compressed) |
+|-------------------------------|------------|-----------------|------------------------|
+| `fluidsizingcss.css`          | 49.22 KB   | 38.03 KB        | 2.69 KB                |
+| `fluidsizingcss-logical.css`  | 33.56 KB   | 25.8 KB         | 1.91 KB                |
+| `fluidsizingcss-physical.css` | 28.12 KB   | 21.35 KB        | 1.93 KB                |
 
 ---
 

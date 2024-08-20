@@ -44,6 +44,8 @@ h1 {
 Set global minimum and maximum screen sizes and base font size at the `:root` level:
 
 ```css
+@layer fluid, base;
+
 @layer base {
     :root {
         --s-min: 400; /* Screen Size Min for General Fluid Sizing */

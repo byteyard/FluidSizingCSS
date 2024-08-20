@@ -63,6 +63,8 @@ FluidSizingCSS provides a comprehensive set of fluid properties, allowing you to
 
 ### Common Fluid Properties
 
+These are general properties like margins, padding, and text formatting that apply universally, ensuring consistent fluid responsiveness across your design.
+
 #### Text Formatting
 
 - **font-size:** `--fs`
@@ -120,6 +122,8 @@ FluidSizingCSS provides a comprehensive set of fluid properties, allowing you to
 - **scroll-padding:** `--sp`
 
 ### Logical Fluid Properties
+
+These properties adjust layout dimensions and spacing using logical directions (e.g., block, inline) relative to writing modes, enhancing adaptability across different content flows.
 
 #### Block
 
@@ -192,6 +196,8 @@ FluidSizingCSS provides a comprehensive set of fluid properties, allowing you to
 - **scroll-padding-inline-end:** `--spie`
 
 ### Physical Fluid Properties
+
+These properties control physical dimensions (e.g., height, width) and positions (e.g., top, left) based on the viewport, allowing precise fluid scaling of elements.
 
 #### Block
 

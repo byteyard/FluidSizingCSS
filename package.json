@@ -1,0 +1,33 @@
+{
+  "name": "fluidsizingcss",
+  "version": "1.0.42",
+  "description": "...",
+  "main": "dist/css/modulate.min.css",
+  "style": "dist/css/modulate.min.css",
+  "files": [
+    "dist/css/"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byteyard/fluidsizingcss.git"
+  },
+  "keywords": [],
+  "author": "ByteYard GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byteyard/fluidsizingcss/issues"
+  },
+  "homepage": "https://fluidsizingcss.com",
+  "devDependencies": {
+    "csso": "^5.0.5",
+    "csso-cli": "^4.0.2"
+  },
+  "fluidsizingcss": {
+    "fluidsizingcss": "dist/css/fluidsizingcss.min.css",
+    "fluidsizingcss-logical": "dist/css/fluidsizingcss-logical.min.css",
+    "fluidsizingcss-physical": "dist/css/fluidsizingcss-physical.min.css"
+  }
+}

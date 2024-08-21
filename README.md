@@ -39,37 +39,37 @@ FluidSizingCSS is a pioneering solution for responsive design that transforms ho
 
 2. **Import the CSS file** into your project based on the framework you’re using:
 
-   - **HTML/Vanilla JavaScript**: Add to your HTML `<head>`:
-
-     ```html
-     <link rel="stylesheet" href="node_modules/fluidsizingcss/fluidsizingcss.css">
-     ```
-
    - **React**: Import in your JavaScript/TypeScript file:
 
      ```javascript
-     import 'fluidsizingcss/fluidsizingcss.css';
+     import 'fluidsizingcss/all';
      ```
 
    - **Vue.js**: Import in your entry file:
 
      ```javascript
-     import 'fluidsizingcss/fluidsizingcss.css';
+     import 'fluidsizingcss/all';
      ```
 
    - **Angular**: Add to the `styles` array in `angular.json`:
 
      ```json
      "styles": [
-       "node_modules/fluidsizingcss/fluidsizingcss.css",
+       "node_modules/fluidsizingcss/dist/fluidsizingcss.min.css",
        "src/styles.css"
      ]
+     ```
+
+   - **HTML/Vanilla JavaScript**: Add to your HTML `<head>`:
+
+     ```html
+     <link rel="stylesheet" href="node_modules/fluidsizingcss/dist/fluidsizingcss.min.css">
      ```
 
    - **SASS/SCSS**: Import in your main SASS/SCSS file:
 
      ```scss
-     @import 'node_modules/fluidsizingcss/fluidsizingcss.css';
+     @import 'node_modules/fluidsizingcss/dist/fluidsizingcss.min.css';
      ```
 
 ### Optional: Smaller CSS Files
@@ -79,13 +79,13 @@ To improve performance, you can choose specialized versions of FluidSizingCSS:
 - **Logical Properties Only** (e.g., `block-size`, `inline-size`):
 
   ```javascript
-  import 'fluidsizingcss/fluidsizingcss-logical.css';
+  import 'fluidsizingcss/logical';
   ```
 
 - **Physical Properties Only** (e.g., `height`, `width`):
 
   ```javascript
-  import 'fluidsizingcss/fluidsizingcss-physical.css';
+  import 'fluidsizingcss/physical';
   ```
 
 ### Via CDN
@@ -95,31 +95,31 @@ Alternatively, include FluidSizingCSS directly in your HTML:
 - **Full Version**:
 
   ```html
-  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/fluidsizingcss.min.css">
   ```
 
   ```html
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/css/fluidsizingcss.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/fluidsizingcss.min.css">
   ```
 
 - **Logical Properties Only**:
 
   ```html
-  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss-logical.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/fluidsizingcss-logical.min.css">
   ```
 
   ```html
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/css/fluidsizingcss-logical.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/fluidsizingcss-logical.min.css">
   ```
 
 - **Physical Properties Only**:
 
   ```html
-  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/css/fluidsizingcss-physical.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/fluidsizingcss@latest/dist/fluidsizingcss-physical.min.css">
   ```
 
   ```html
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/css/fluidsizingcss-physical.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fluidsizingcss@latest/dist/fluidsizingcss-physical.min.css">
   ```
 
 ---

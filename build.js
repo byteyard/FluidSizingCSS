@@ -27,18 +27,18 @@ const packages = [
   },
 ]
 
-// Ensure the dist/css directory exists
-const distDir = 'dist/css';
+// Ensure the dist directory exists
+const distDir = 'dist';
 
-// Delete all files under dist/css
+// Delete all files under dist
 if (fs.existsSync(distDir)) {
   fs.rmSync(distDir, { recursive: true, force: true });
-  console.log('Deleted all files under dist/css');
+  console.log('Deleted all files under dist');
 }
 
-// Recreate the dist/css directory
+// Recreate the dist directory
 fs.mkdirSync(distDir, { recursive: true });
-console.log('Created dist/css directory');
+console.log('Created dist directory');
 
 function mergeAndMinifyFiles(package) {
 
@@ -50,15 +50,15 @@ function mergeAndMinifyFiles(package) {
   console.log(`Merged files: ${files.join(', ')}`);
 
   // Write the unminified merged file
-  fs.writeFileSync(`dist/css/${name}.css`, mergedInput, 'utf8');
-  console.log(`Written unminified merged file: dist/css/modulate.css`);
+  fs.writeFileSync(`dist/${name}.css`, mergedInput, 'utf8');
+  console.log(`Written unminified merged file: dist/modulate.css`);
 
   // Minify the merged content
   const mergedOutput = csso.minify(mergedInput).css;
 
   // Write the minified merged file
-  fs.writeFileSync(`dist/css/${name}.min.css`, mergedOutput, 'utf8');
-  console.log(`Written minified merged file: dist/css/modulate.min.css`);
+  fs.writeFileSync(`dist/${name}.min.css`, mergedOutput, 'utf8');
+  console.log(`Written minified merged file: dist/modulate.min.css`);
 }
 
 packages.forEach(package => {

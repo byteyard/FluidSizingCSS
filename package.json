@@ -1,13 +1,13 @@
 {
   "name": "fluidsizingcss",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "FluidSizingCSS is a pure CSS solution for responsive design, offering fluid sizing locks for seamless scaling across devices. It eliminates the need for external tools, enabling developers to create adaptable, lightweight, and fast interfaces with native CSS. Includes common, logical, and physical fluid properties for comprehensive design flexibility.",
-  "main": "dist/css/fluidsizingcss.min.css",
-  "style": "dist/css/fluidsizingcss.min.css",
-  "browser": "dist/css/fluidsizingcss.min.css",
+  "main": "dist/fluidsizingcss.min.css",
+  "style": "dist/fluidsizingcss.min.css",
+  "browser": "dist/fluidsizingcss.min.css",
   "sideEffects": false,
   "files": [
-    "dist/css/"
+    "dist/"
   ],
   "scripts": {
     "build": "node build.js"
@@ -37,8 +37,8 @@
     "csso-cli": "^4.0.2"
   },
   "exports": {
-    "./fluidsizingcss": "./dist/css/fluidsizingcss.min.css",
-    "./fluidsizingcss-logical": "./dist/css/fluidsizingcss-logical.min.css",
-    "./fluidsizingcss-physical": "./dist/css/fluidsizingcss-physical.min.css"
+    "./all": "./dist/fluidsizingcss.min.css",
+    "./logical": "./dist/fluidsizingcss-logical.min.css",
+    "./physical": "./dist/fluidsizingcss-physical.min.css"
   }
 }

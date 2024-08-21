@@ -128,9 +128,8 @@ Alternatively, include FluidSizingCSS directly in your HTML:
 
 The following table provides an overview of the different versions of FluidSizingCSS files, including their standard CSS size, minified size, and the size after Brotli compression. This information helps you understand the trade-offs between file size and performance optimization in your project.
 
-| File Name                     | Size       |                 |                        |
+| File Name                     | Raw        | Minified        | Brotli compressed      |
 |-------------------------------|------------|-----------------|------------------------|
-|                               | CSS        | Minified        | Brotli compressed      |
 | `fluidsizingcss.css`          | 49.22 KB   | 38.03 KB        | 2.69 KB                |
 | `fluidsizingcss-logical.css`  | 33.56 KB   | 25.8 KB         | 1.91 KB                |
 | `fluidsizingcss-physical.css` | 28.12 KB   | 21.35 KB        | 1.93 KB                |
